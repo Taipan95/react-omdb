@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-omdb/static/css/main.1293b088.chunk.css",
+    "main.js": "/react-omdb/static/js/main.74ad9a28.chunk.js",
+    "main.js.map": "/react-omdb/static/js/main.74ad9a28.chunk.js.map",
+    "runtime-main.js": "/react-omdb/static/js/runtime-main.f21b52f5.js",
+    "runtime-main.js.map": "/react-omdb/static/js/runtime-main.f21b52f5.js.map",
+    "static/js/2.9350592b.chunk.js": "/react-omdb/static/js/2.9350592b.chunk.js",
+    "static/js/2.9350592b.chunk.js.map": "/react-omdb/static/js/2.9350592b.chunk.js.map",
+    "index.html": "/react-omdb/index.html",
+    "precache-manifest.3c23f7b320703c0160b43c63fc8f6d0a.js": "/react-omdb/precache-manifest.3c23f7b320703c0160b43c63fc8f6d0a.js",
+    "service-worker.js": "/react-omdb/service-worker.js",
+    "static/css/main.1293b088.chunk.css.map": "/react-omdb/static/css/main.1293b088.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f21b52f5.js",
+    "static/js/2.9350592b.chunk.js",
+    "static/css/main.1293b088.chunk.css",
+    "static/js/main.74ad9a28.chunk.js"
+  ]
+}
