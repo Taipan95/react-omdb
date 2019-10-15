@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Search from "./Components/Search";
+import MoviesList from "./Components/MoviesList";
+import './Styles/App.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+    state = {
+        results: []
+    };
+    addNewResult = resultData => {
+        this.setState(prevState => ({
+            results: resultData
+        }));
+    };
+    render() {
+        return (
+            <div>
+                <div className="header">OMDB Search</div>
+                <Search onSubmit={this.addNewResult} />
+                <MoviesList searchResults={this.state.results} />
+            </div>
+        );
+    }
 }
-
 export default App;

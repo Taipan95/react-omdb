@@ -1,0 +1,15 @@
+form{
+    width: 75%;
+    margin: auto;
+    border: thin solid #ddd;
+    background-color: #fbfbfb;
+    padding: 1rem;
+    /* margin-bottom: 2rem; */
+    text-align: center;
+}
+
+input{
+    margin: 0.2rem;
+    width: 75%;
+    text-align: center;
+}
